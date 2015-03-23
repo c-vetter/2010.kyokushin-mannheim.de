@@ -1,0 +1,184 @@
+@charset "UTF-8";
+* {
+	background: none;
+	border: 0 solid #fff;
+	border-collapse: separate;
+	color: #333;
+	direction: ltr;
+	float: none;
+	font-family: 'Georgia', serif;
+	font-size: 1em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: .5px;
+	line-height: 1.7em;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0;
+	text-transform: none;
+	vertical-align: top;
+}
+html {
+	background: url('background.png') #600 scroll repeat 30% 0;
+	font-size: 14px;
+	overflow: scroll;
+}
+body {
+	margin: auto;
+	padding: 20em 35em;
+	width: 0;
+}
+.frame {
+	background: url('/web/20130924014540/http://kyokushin-mannheim.de/images/kanji_kyokushin.png') #fff scroll no-repeat right bottom;
+	margin: -15em -31em;
+	padding: 4.5em;
+	position: relative;
+	width: 51em;
+		min-height: 38em;
+}
+h1 {
+	color: #000;
+	font-size: 22px;
+	line-height: 1.4em;
+	margin: -.3em 0 1.4em;
+}
+	#logo {
+		height: 7em;
+		position: absolute;
+		right: 4em;
+		top: 1em;
+		width: 7em;
+	}
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+.prologue {
+	float: right;
+	width: 11.25em;
+}
+	#navigation {
+		list-style: none;
+	}
+		#navigation li {
+			margin-bottom: 4px;
+		}
+		#navigation a {
+			background: #888;
+			color: #fff;
+			display: block;
+			padding: 1px 6px 3px;
+		}
+			#navigation .self a {
+				background: #555;
+			}
+			#navigation li:hover a {
+				background: #333;
+			}
+.content {
+	float: left;
+	margin-bottom: 2em;
+	width: 37.75em;
+}
+	h2 {
+		font-weight: bold;
+	}
+	p, ul, ol {
+		margin-bottom: 1.7em;
+	}
+	ul ul, ol ol, ul ol, ol ul {
+		margin-bottom: 0;
+	}
+	.content a {
+		border-bottom: 1px dotted #333;
+	}
+		.content .gallery a {
+			border-bottom: none;
+		}
+	.content ul, .content ol {
+		margin-left: 2em;
+		position: relative;
+	}
+	.image {
+		background: #ddd;
+		border: 1px solid #ddd;
+		clear: both;
+		float: left;
+		margin: .5em 2em 1em 0;
+		overflow: hidden;
+		text-align: center;
+		width: 11.25em;
+	}
+		.image.right {float: right; margin: .5em 0 1em 2em}
+		.image.wide {width: 24.5em}
+		.image.full {float: none; margin: .5em 0 1em; width: auto}
+		.image.white {background: #fff}
+		.image.black {background: #000; border-color: #000}
+		.image.red {background: #600; border-color: #600}
+		.image .description {
+			background: #fff;
+			line-height: 1.3em;
+			margin-top: 1px;
+			padding: 1px 6px 2px;
+		}
+	.member {
+		border: 7px solid #ddd;
+		margin-bottom: 1em;
+		padding: 1em;
+	}
+		.member.black-belt{border-color: #000}
+		.member.brown-belt{border-color: #820}
+		.member.green-belt{border-color: #060}
+		.member.yellow-belt{border-color: #db0}
+		.member.blue-belt{border-color: #22a}
+		.member.red-belt{border-color: #d00}
+		.member img {
+			float: left;
+			margin: -1em 1.4em -1em -1em;
+		}
+		.member .mail-link {
+			font-weight: normal;
+		}
+	.gallery .item {
+		float: left;
+		width: 120px;
+		height: 120px;
+		margin: 0 10px 10px 0;
+		border: 1px solid #999;
+		position: relative;
+	}
+		#overlay {
+			width: 100% !important;
+		}
+		.gallery .item .thumb {
+			background-repeat: no-repeat;
+			background-position: center;
+			background-color: #FFF;
+			width: 100px;
+			height: 100px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-top: -50px;
+			margin-left: -50px;
+		}
+			.gallery .item .thumb a {
+				background: transparent;
+				display: block;
+				height: 100%;
+				-moz-outline: none;
+				text-indent: -9999px;
+			}
+.epilogue {
+	clear: both;
+	width: 37.75em;
+}
+	.changedate {
+		color: #888;
+	}
+.clear{clear:both;height:1px;margin-bottom:-1px;}
